@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Organic</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">TRENDING</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link " href="#" >
+            STORE
+          </a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " href="#">CONTACT</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control px-2" type="search" placeholder="Search Items" aria-label="Search"/>
+        <button class="btn0 btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+ <section class="main">
+    <div class="container py-5">
+        <div class="row py-4">
+            <div class="col-lg-7 pt-5 text-center">
+                <h1>EATING WELL <br><span style="color: rgb(198, 21, 21);"> IS A HABIT</span> <br> CULTIVATE IT</h1>
+                <br>
+                
+                <p class="para">- Nature Has Always Cared For Us !! -</p>
+            </div>
+        </div>
+    </div>
+ </section>
+
+
+
+ <section class="new">
+    <div class="container py-5">
+        <div class="row pt-5">
+            <div class="col-lg-7  m-auto">
+                <div class="row text-center">
+                    <div class="col-lg-4 col-md-6 col-sm-12 ">
+                      <img src="/imgs/banana.png" class="img-fluid" alt="">
+                      <h6>NATURAL</h6>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                         <img src="/imgs/grape.png" class="img-fluid" alt="">
+                      <h6>ORGANIC</h6>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                         <img src="/imgs/health.avif" class="img-fluid" alt="">
+                      <h6>HEALTH</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+
+   <section class="product">
+    <div class="container ">
+        <div class="row py-3">
+            <div class="col-lg-5 m-auto text-center">
+                <h1>What's Trending</h1>
+                <h6 style="color: red;">Pick Your Product From Our Store</h6>
+
+
+
+
+            </div>
+       </div>
+
+       <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                    <img src="/imgs/twigs.jpg" class="img-fluid" alt="">
+                    
+                    <h6 class="mt-4">Twigs</h6>
+                
+                    <p>$29.99</p>
+                    <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                    <img src="/imgs/chips.jpg" class="img-fluid" alt="">
+                   
+                    <h6 class="mt-4">Crave Chips</h6>
+                   
+                    <p>$24.99</p>
+                    <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                   <img src="/imgs/fries.jpg" class="img-fluid" alt="">
+                   
+                    <h6 class="mt-4">Baked Fries</h6>
+                    
+                    <p>$19.99</p>
+                     <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                    <img src="/imgs/nuts.jpg" class="img-fluid" alt="">
+                    
+                    <h6 class="mt-4">Cashew Nuts</h6>
+                   
+                    <p>$39.99</p>
+                     <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+
+        
+       
+
+
+
+
+
+       <!-- <div class="row"> -->
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                    <img src="/imgs/coco water.jpg" class="img-fluid" alt="">
+                    
+                    <h6 class="mt-4">Coco Water</h6>
+                
+                    <p>$24.99</p>
+                     <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                    <img src="/imgs/dates.jpg" class="img-fluid" alt="">
+                   
+                    <h6 class="mt-4">Dates Pack</h6>
+                   
+                    <p>$29.99</p>
+                     <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                   <img src="/imgs/dried fruits pack.jpg" class="img-fluid" alt="">
+                   
+                    <h6 class="mt-4">Dried Fruits</h6>
+                    
+                    <p>$24.99</p>
+                     <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                    <img src="/imgs/nuts.jpg" class="img-fluid" alt="">
+                    
+                    <h6 class="mt-4">Cashew Nuts</h6>
+                   
+                    <p>$39.99</p>
+                     <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+
+        
+       <!-- </div> -->
+
+
+
+
+       <!-- <div class="row"> -->
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                    <img src="/imgs/strawberry drink.jpeg" class="img-fluid" alt="">
+                    
+                    <h6 class="mt-4">Strawberry Smoothie</h6>
+                
+                    <p>$29.99</p>
+                     <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                    <img src="/imgs/fruits2.jpg" class="img-fluid" alt="">
+                   
+                    <h6 class="mt-4">Fruits Set</h6>
+                   
+                    <p>$22.99</p>
+                     <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                   <img src="/imgs/milk.jpeg" class="img-fluid" alt="">
+                   
+                    <h6 class="mt-4">Healthy Milk</h6>
+                    
+                    <p>$27.99</p>
+                     <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+
+         <div class="col-lg-3 col-md-4 col-sm-6 text-center">
+            <div class="card border-0 bg-light mb-2">
+                <div class="card-body">
+                    <img src="/imgs/bananapack.jpg" class="img-fluid" alt="">
+                    
+                    <h6 class="mt-4">Banana</h6>
+                   
+                    <p>$19.99</p>
+                     <input class="btn btn-primary" type="button" value="Add to Cart" onclick="showAlert()">
+                </div>
+            </div>
+            
+        </div>
+        <!-- </div> -->
+
+        
+       </div>
+
+
+
+
+       <div class="row">
+        <div class="col-lg-6 text-center m-auto">
+            <button class="btn1 mt-3">Click For More</button>
+        </div>
+       </div>
+    </div>
+
+   </section>
+
+
+   <section class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 m-auto text-center mt-5">
+                <h1>Welcome To Our Organic Food Society</h1>
+                <h6 style="color: red;" class=" mt-4 mb-4 ">Be Healthy Organic Food</h6>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="/imgs/dried fruits.jpg" class="img-fluid mb-3" alt="">
+                    <h5>Healthy Nuts</h5>
+                    <p>A premium assortment of high-quality dry fruits and nuts, featuring a colorful selection of almonds, cashews, pistachios, pecans, hazelnuts, dried apricots, berries, kiwi slices, and more. Perfect for gifting, snacking, or adding nutritious ingredients to your daily diet.</p>
+                </div>
+
+                 <div class="col-lg-4">
+                    <img src="/imgs/drinks.jpg" class="img-fluid mb-3" alt="">
+                    <h5>Healthy Drinks</h5>
+                    <p>A vibrant collection of ready-to-blend smoothies featuring nutritious, real ingredients. Each cup highlights unique flavor combinations like Strawberry + Peach, Blueberry + Cacao, Acai + Cherry, Mint + Cacao, and Mango + Papaya. Made with wholesome fruits, veggies, and superfoods, these smoothies offer a convenient, delicious, and healthy way to fuel your day. Perfect for quick breakfasts, post-workout refreshment, or on-the-go nutrition.</p>
+                </div>
+
+                 <div class="col-lg-4">
+                    <img src="/imgs/plater.jpg" class="img-fluid mb-3" alt="">
+                    <h5>Healthy Fruits</h5>
+                    <p>A vibrant, freshly prepared fruit platter featuring a colorful mix of mango cubes, strawberries, raspberries, kiwi slices, blackberries, blueberries, and green grapes. Each fruit is cut cleanly and arranged in an eye-catching layout, offering a refreshing, nutrient-rich assortment ideal for parties, breakfasts, or healthy snacking.</p>
+                </div>
+            
+        
+        </div>
+
+        <div class="row pt-3">
+          <div class="col-lg-6 text-center m-auto">
+            <button class="btn1">Shop More</button>
+
+          </div>
+        </div>
+    </div>
+
+   </section>
+
+
+   <section class="shop">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-lg-8 m-auto text-center">
+          <h1>Explore Our Store</h1>
+          <!-- <h6 style="color: red;">Pick Your Product From Our Store</h6> -->
+        </div>
+
+      </div>
+    </div>
+
+   </section>
+
+
+</div>
+</section>
+
+
+<section class="about-section">
+  <div class="container py-5">
+    <div class="row">
+      <div class="col-lg-9 m-auto text-center">
+        <h1>About Us</h1>
+
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-11">
+        <div class="row">
+          <div class="col-lg-3 py-3">
+            <h5 class="pb-3">CUSTOMER CARE</h5>
+            <p>Regular</p>
+            <p>On Time</p>
+            <p>Always Care</p>
+          </div>
+
+           <div class="col-lg-3 py-3">
+            <h5 class="pb-3">FAQ's</h5>
+            <p>No E-charges</p>
+            <p>Shopping & Delivery</p>
+            <p>Always Care</p>
+          </div>
+
+           <div class="col-lg-3 py-3">
+            <h5 class="pb-3">OUR COMPANY</h5>
+            <p>About</p>
+            <p>New Food</p>
+            <p>Product</p>
+          </div>
+
+           <div class="col-lg-3 py-3">
+            <h5 class="pb-3">CUSTOMER CARE</h5>
+            <span><i class="fab fa-facebook"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-google-plus"></i></span>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+     <hr>
+     <p>© 2025 Organic.com | All Rights Reserved. </p>
+  </div>
+
+</section>
+
+
+    <script>
+        
+
+        function showAlert() {
+          Swal.fire({
+            title: 'Product Added to Your Cart!',
+            text: 'do check it',
+            background: '#fff',
+            color: '#000',
+            confirmButtonColor: '#3085d6',
+            confirmButtonText:  'OK'  
+          });
+        }
+        </script>
+
+
+   <script src="/js/bootstrap.js"></script>
+
+   
+   
+
+
+</body>
+</html>

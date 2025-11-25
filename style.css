@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+.navbar-brand{
+    font-size: 2em;
+    color: black;
+    font-family: "Playwrite CZ", cursive;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin:0 40px 0 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+   
+
+}
+.nav-link:hover{
+    color: black;
+}
+.form-control{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -30px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.btn0{
+    height: 40px;
+    width: 80px;
+    outline: none;
+    border: none;
+    background-color: grey;
+    font-weight: 700px;
+    border-radius: 60px;
+   
+}
+.main{
+    background: url(/imgs/food.png)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4em;
+    font-weight: 700;
+}
+.para{
+    margin-top: 100px;
+    font-size: large;
+    font-weight: 700;
+    color: rgb(107, 105, 105);
+}
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+}
+.btn1{
+    height: 45px;
+    width: 25%;
+    border: none;
+    outline: none;
+    background-color: rgb(198, 59, 59);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.about-section{
+    background-color: black;
+    color: white;
+}
+.fab{
+    font-size: 2.5em;
+    cursor: pointer;
+    padding-right: 5px;
+}
